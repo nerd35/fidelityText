@@ -1,0 +1,261 @@
+body {
+  background-color: #EAEDED !important;
+}
+.nav-link {
+  color: #333333 !important;
+  font-size: 12px;
+  font-weight: bold;
+}
+.dropdown-menu{
+  width: 100% !important;
+}
+.dropdown-list-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+.dropdown-list-link{
+  font-size: 14px;
+}
+.online-btn{
+  background-color: #78b943;
+  color: #fff !important;
+}
+.onlineText{
+  color: #fff !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+.online-btn:hover{
+  background-color: #0e237e;
+}
+.bg-primary{
+  background-color: #0e237e !important;
+}
+.mainMenu{
+  color: #fff !important;
+}
+.latest-div{
+  background-color: #78b943;
+}
+.latest-text{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.news-div{
+  background-color: #0e237e;
+}
+.news-text{
+  color: #fff;
+  font-size: 12px;
+}
+.service-section {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.bg-light{
+  background-color: #fff !important;
+}
+.service-title{
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.28;
+  font-weight: bold;
+}
+.service-text{ 
+  color: #747474;
+  font-size: 14px;
+}
+.btn-transparent{
+  border: 2px solid #0e237e;
+  margin-top: 20px;
+}
+.btn-transparent:hover{
+  border: 2px solid #78b943;
+}
+.text-primary1{
+  color: #0e237e !important;
+}
+.text-primary1:hover{
+  color: #78b943 !important;
+}
+
+.ourServiceTitle{
+  font-size: 22px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.ourServiceText{
+  color: #747474;
+  font-size: 12px;
+}
+.bg-success{
+  background-color: #78b943 !important;
+}
+.link-text {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none !important;
+  
+}
+.copyright-text{
+  color: #fff;
+  font-size: 12px;
+}
+
+.copyright-link{
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.livechat{
+  position: fixed;
+  width: 100px;
+  top: 520px;
+  bottom: 0;
+  left: 60px;
+  z-index: 1;
+}
+.ivy-whatsapp{
+  position: fixed;
+  color: #303030;
+  font-size: 13px;
+  font-weight: bold;
+  right: 40px;
+  z-index: 1;
+  top: 570px;
+
+}
+.whatsapp-icon{
+  background-color: #31b02d;
+  color: #fff;
+  border-radius: 50%;
+}
+.toggle-section {
+  position: fixed;
+  width: 200px;
+  background-color: #0e237e;
+  color: #fff;
+  right: -155px;
+  top: 200px;
+  z-index: 1;
+}
+.toggle-section:hover {
+  right: 0;
+}
+.toggle-link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.open-account-text{
+  font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    position: fixed;
+    top: 470px;
+    bottom: 0;
+    left: 0;
+    margin-left: -3px;
+    
+   transform: rotate(270deg);
+     transform-origin: 0 0;
+}
+
+.btn-primary{
+  background-color: #0e237e !important;
+}
+.btn-primary:hover{
+  background-color: #78b943 !important;
+
+}
+
+
+#back-to-top-button{
+  display: none;
+  width: 50px !important;
+  height: 35px !important;
+  position: fixed;
+  background-color: #303031;
+  border: 0 !important;
+  bottom: 0px;
+  right: 100px;
+  font-size: 11px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transition: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transition: translate3d(0, 0, 0);
+  }
+}
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+  animation-name: btnExit;
+}
+
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transition: translate3d(0, 100%, 0);
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+
+
+/*# sourceMappingURL=style.css.map */
